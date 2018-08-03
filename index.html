@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link href="fonts/DroidSans-webfont.woff" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>  
+  
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Qala Express</title>
+</head>
+<body>
+
+<div class="logo">
+  <img src="image/1.svg" alt="">
+</div>
+<div id='cssmenu'>
+  <!-- <div class="logo">
+    <img src="1.png" alt="">
+  </div> -->
+<ul>
+    
+   <li><a href='index.html'>Home</a></li>
+   <li class='active'><a href='#'>Services</a>
+      <ul>
+          <li><a href='driving.html'>Driving safety </a>
+                        
+          </li>
+          <li>
+              <a href='safety.html'>Vehicle safety</a>
+          </li>
+          <li>
+              <a href='compet.html'>Driver competency</a>
+          </li>
+      </ul>
+   </li>
+   <li class='active'><a href='#'>Fleet</a>
+    <ul>
+       <li><a href='sedan.html'>Sedan</a>
+          
+       </li>
+       <li><a href='suv.html'>Suv and Crossovers</a>
+          
+       </li>
+       <li><a href='bus.html'>Buses</a>
+          
+       </li>
+       <li><a href='truck.html'>Trucks</a>
+          
+       </li>
+    </ul>
+ </li>
+   <li><a href='about.html'>About us</a></li>
+   <li><a href='contact.html'>Contacts</a></li>
+</ul>
+</div>
+<div class="slider-container">
+        <div class="slider-control left inactive"></div>
+        <div class="slider-control right"></div>
+        <ul class="slider-pagi"></ul>
+        <div class="slider">
+          <div class="slide slide-0 active">
+            <div class="slide__bg"></div>
+            <div class="slide__content">
+              <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="slide__text">
+                  <a href="sedan.html" class="slide__text-link">Sedan</a>
+                <!-- <h2 class="slide__text-heading">Project name 1</h2> -->
+                <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-1 ">
+            <div class="slide__bg"></div>
+            <div class="slide__content">
+              <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="slide__text">
+                  <a href="suv.html" class="slide__text-link">Suv and Crossovers</a>
+                <!-- <h2 class="slide__text-heading">Project name 2</h2> -->
+                <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-2">
+            <div class="slide__bg"></div>
+            <div class="slide__content">
+              <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="slide__text">
+                  <a href="bus.html" class="slide__text-link">Buses</a>
+                <!-- <h2 class="slide__text-heading">Project name 3</h2> -->
+                <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-3">
+            <div class="slide__bg"></div>
+            <div class="slide__content">
+              <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="slide__text">
+                  <a href="truck.html" class="slide__text-link">Trucks</a>
+                <!-- <h2 class="slide__text-heading">Project name 4</h2> -->
+                <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="story">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-11 ">
+                <div class="heading">
+                 <h2> <b>Welcome to Qala Exspress</b> </h2>
+                 <h3>A small introduction about our company</h3>        
+               </div>
+               </div> 
+                </div> 
+               <div class="row">
+               <div id="photo" class=" col-lg-6 col-md-6 col-sm-4 col-xs-11 pull-right media"><img src="image/team.jpg" alt=""></div>
+                 <div class=" col-lg-6 col-md-6 col-sm-8 col-xs-11 pull-left media">
+                   
+                  <em><p>Qala Express introduces full range of transportation and logistic service throughout Azerbaijan and the Region. It commenced its activity in 2008 and is considered to be one of the pioneers in local modern transport industry. The Company’s initial focus was development of safe and reliable transportation services in the Country. Today, Qala Express is a company specialized in both transportation and logistics.</p></em>
+                  <h4><u>Our credo</u> – don’t be part of the problem, be <u>part of the solution</u> </h4>
+        
+                 </div>
+                 
+               </div>
+        </div>
+        
+      </div>
+      <div class="contact">
+          <div class="container">
+            <div class="row">
+                
+                <div id="frm" class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 pull-right media">
+                  <h1>REQUEST A FREE QUOTE</h1>
+                    <form action="action_page.php">
+                      <div class="row">
+                          <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left media">
+                              <div class="row">
+                                  <div class="col-75">
+                                    <input type="text" id="fname" name="firstname" placeholder="Name and Surname">
+                                  </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-75">
+                                      <select type="text" id="country" name="country" placeholder="Transportation service">
+                                        <option value="Transportation service">Transportation service</option>
+                                        <option value="canada">Canada</option>
+                                        <option value="usa">USA</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                <div class="row">
+                                  <div class="col-75">
+                                    <input type="text" id="lname" name="source address" placeholder="Source address">
+                                  </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-75">
+                                      <input type="text" id="lname" name="destination address" placeholder="Destination address">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-75">
+                                      <input type="text" id="lname" name="phone" placeholder="Phone number">
+                                    </div>
+                                </div>
+                          </div>
+                          <div id="right" class=" col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right media">
+                              <div class="row">
+                                  <div class="col-75">
+                                    <input type="text" id="lname" name="email" placeholder="Email">
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-75">
+                                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <input id="posl" type="submit" value="Submit">
+                                </div>
+                          </div>
+                      </div>
+                      </form>
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="map">
+          <div id="map"></div>
+      </div>
+      
+      <footer id="footer">
+        <div class="container">
+          <div class="footcont">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-3  col-xs-12 ">
+                <div class="ftlogo"><img src="image/1.svg" alt=""></div>
+                <div class="ftext">Our credo – don’t be part of the problem, be part of the solution.</div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3  col-xs-12 ">
+                <div class="nvmenu1">
+                  <h4>FLEET</h4>
+                  <ul>
+                    <li><i class="fa fa-angle-right"></i><a href="sedan.html">Sedan</a> </li>
+                    <li><i class="fa fa-angle-right"></i><a href="suv.html">SUV and Crossovers</a></li>
+                    <li><i class="fa fa-angle-right"></i><a href="bus.html">Buses</a></li>
+                    <li><i class="fa fa-angle-right"></i><a href="truck.html">Trucks</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
+                  <div class="nvmenu2">
+                      <h4>PAGES</h4>
+                      <ul>
+                        <li><i class="fa fa-angle-right"></i><a href="driving.html">Driving safety</a></li>
+                        <li><i class="fa fa-angle-right"></i><a href="safety.html">Vehicle safety</a></li>
+                        <li><i class="fa fa-angle-right"></i><a href="compet.html">Driver competency</a></li>
+                        <li><i class="fa fa-angle-right"></i><a href="about.html">About Us</a></li>
+                        <li><i class="fa fa-angle-right"></i><a href="contact.html">Contacts</a></li>
+                      </ul>
+                    </div>
+              </div>
+              <div id="src" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
+                <div class="src">
+                    <h4>SEARCH</h4>
+                    <form action="#" class="sform" method="get">
+                        <input type="search" placeholder="Search" >
+                        <button type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+            <a href=""><i class="fa fa-5x fa-facebook-square"></i></a>
+            <a href=""><i class="fa fa-5x fa-twitter-square"></i></a>
+            <a href=""><i class="fab fa-5x fa-instagram"></i></a>
+            <a href=""><i class="fab fa-5x fa-google"></i></a>
+            
+            
+        </div>
+      </footer>
+      <div class="totop"><i class="fa fa-angle-up"></i> To Top</div>
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="http://maps.google.com/maps/api/js"></script>
+      <script src="js/gmaps.js"></script>
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+      <script src="js/totop.min.js"></script>
+      <script src="script.js"></script>
+      <script >
+        $('.totop').tottTop({
+           scrollTop: 50
+        });
+      </script>
+</body>
+<html>
